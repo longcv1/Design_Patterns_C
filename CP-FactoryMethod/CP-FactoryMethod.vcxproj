@@ -139,10 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConcreteCreator1.cpp" />
-    <ClCompile Include="ConcreteCreator2.cpp" />
-    <ClCompile Include="ConcreteProduct1.cpp" />
-    <ClCompile Include="ConcreteProduct2.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,10 +1,10 @@
 #include "Application.h"
 #include"DocumentFactory.h"
 
-void Application::New()
+void Application::New(const std::string& type)
 {
    DocumentFactory factory;
-   m_pDocument = factory.Create("pdf");
+   m_pDocument = factory.Create(type);
 }
 
 void Application::Open()

@@ -2,7 +2,7 @@
 int main()
 {
    Application app;
-   app.New();
+   app.New("text");
    app.Open();
    app.Save();
 }
