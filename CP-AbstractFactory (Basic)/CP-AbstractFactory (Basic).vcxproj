@@ -18,27 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PdfDocument.cpp" />
-    <ClCompile Include="TextDocument.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="Document.h" />
-    <ClInclude Include="DocumentFactory.h" />
-    <ClInclude Include="PdfDocument.h" />
-    <ClInclude Include="TextDocument.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1c838672-2f91-4cdc-9d0c-9cfb74e18bc5}</ProjectGuid>
-    <RootNamespace>CPFactoryMethodParameterized</RootNamespace>
+    <ProjectGuid>{01faed5d-38b2-46f7-a051-09130863740e}</ProjectGuid>
+    <RootNamespace>CPAbstractFactoryBasic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,6 +138,25 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Factory1.cpp" />
+    <ClCompile Include="Factory2.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="Factory1.h" />
+    <ClInclude Include="Factory2.h" />
+    <ClInclude Include="IProductA.h" />
+    <ClInclude Include="IProductB.h" />
+    <ClInclude Include="FamilyProductA.h" />
+    <ClInclude Include="FamilyProductB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

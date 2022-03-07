@@ -18,34 +18,39 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
+    <ClCompile Include="Factory1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PdfDocument.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TextDocument.cpp">
+    <ClCompile Include="Factory2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h">
+    <ClInclude Include="IProductA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Document.h">
+    <ClInclude Include="IProductB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DocumentFactory.h">
+    <ClInclude Include="FamilyProductA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PdfDocument.h">
+    <ClInclude Include="FamilyProductB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TextDocument.h">
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
 </Project>
