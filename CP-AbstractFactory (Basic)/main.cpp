@@ -1,3 +1,19 @@
+/*
+Provide an interface for creating families of related or dependent objects
+without specifying their concrete classes.
+==> Pros:
+    - Avoid compile time implementation dependencies.
+    - Ensures creating consistent object families
+==> Cons:
+    - Adding a new products is difficult
+
+==> When using:
+    - Want to provide instances to clients without exposing concrete class
+    - Want to configure a system with one of multiple product configs
+    - A system should be able to use classes only from one family at a time and you wanna enforce that.
+*/
+
+
 #include<iostream>
 #include"AbstractFactory.h"
 #include"Factory1.h"
