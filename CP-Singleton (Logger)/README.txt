@@ -13,3 +13,14 @@
 3. Issues:
 - Its name used directlty => violate SOLID principle (Dependencies Inversion Principle)
 - Hard to make mock object for UT
+
+4. Pros:
+- Class itself controls the instantiation process
+- Better than global variable
+- Can allow multiple instances but limited
+
+5. When to use it?
+- Only 1 instance should be used because:
+  => Mutiple instances cause data corruption
+  => managing global or shared state
+  => muliple instances are not required

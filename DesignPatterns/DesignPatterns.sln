@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Singleton (Registry)", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Singleton (Registry Lazy Intance)", "..\CP-Singleton (Registry Lazy Intance)\CP-Singleton (Registry Lazy Intance).vcxproj", "{EE440A1F-49E4-4C3D-9EEB-627F1F103819}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Strategy (Basic)", "..\BP-Strategy (Basic)\BP-Strategy (Basic).vcxproj", "{3F787547-CFAC-481A-90C4-7260E43E3C0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Strategy (SpreadSheet)", "..\BP-Strategy (SpreadSheet)\BP-Strategy (SpreadSheet).vcxproj", "{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +125,22 @@ Global
 		{EE440A1F-49E4-4C3D-9EEB-627F1F103819}.Release|x64.Build.0 = Release|x64
 		{EE440A1F-49E4-4C3D-9EEB-627F1F103819}.Release|x86.ActiveCfg = Release|Win32
 		{EE440A1F-49E4-4C3D-9EEB-627F1F103819}.Release|x86.Build.0 = Release|Win32
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Debug|x64.ActiveCfg = Debug|x64
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Debug|x64.Build.0 = Debug|x64
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Debug|x86.Build.0 = Debug|Win32
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Release|x64.ActiveCfg = Release|x64
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Release|x64.Build.0 = Release|x64
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Release|x86.ActiveCfg = Release|Win32
+		{3F787547-CFAC-481A-90C4-7260E43E3C0D}.Release|x86.Build.0 = Release|Win32
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Debug|x64.ActiveCfg = Debug|x64
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Debug|x64.Build.0 = Debug|x64
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Debug|x86.Build.0 = Debug|Win32
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Release|x64.ActiveCfg = Release|x64
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Release|x64.Build.0 = Release|x64
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Release|x86.ActiveCfg = Release|Win32
+		{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
