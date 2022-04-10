@@ -1,3 +1,5 @@
+POPULARITY (***)
+================
 1. Definition:
 "Define a family of algorithms, encapsulate one and make them interchangeable.
 Strategy lets the algorithm vary independently from client that use it"

@@ -139,10 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CSVFormat.h" />
     <ClInclude Include="DataModel.h" />
+    <ClInclude Include="Format.h" />
+    <ClInclude Include="HtmlFormat.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CSVFormat.cpp" />
     <ClCompile Include="DataModel.cpp" />
+    <ClCompile Include="Format.cpp" />
+    <ClCompile Include="HtmlFormat.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

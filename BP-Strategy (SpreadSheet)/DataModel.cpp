@@ -1,4 +1,5 @@
 #include "DataModel.h"
+#include"Format.h"
 #include<iostream>
 #include<string>
 #include<fstream>
@@ -56,11 +57,7 @@ void DataModel::Save()
 
 void DataModel::Export()
 {
-   std::ofstream out{ "data.csv" };
-   for (auto row : m_Sheet) {
-      for (auto e : row) {
-         out << e << ',';
-      }
-      out << '\n';
+   if (m_pFormat) {
+      m_pFormat->ExportData(this);
    }
 }

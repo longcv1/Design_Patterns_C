@@ -1,4 +1,6 @@
 #include"DataModel.h"
+#include"CSVFormat.h"
+#include"HtmlFormat.h"
 
 int main()
 {
@@ -9,6 +11,9 @@ int main()
    //data.Save();
    data.Load();
    data.Display();
+   CSVFormat csv{ "records.csv" };
+   HtmlFormat html{ "records.html" };
+   data.SetFormat(&html);
    data.Export();
    return 0;
 }
