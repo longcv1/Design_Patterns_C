@@ -11,7 +11,7 @@ HtmlFormat::HtmlFormat(const std::string& filename) : m_OStream{filename}
 
 void HtmlFormat::ExportData(DataModel* data)
 {
-   m_OStream.open("data.html");
+   //m_OStream.open("records.html");
    m_OStream
       << "<!DOCTYPE html>\n"
       << "<html>\n"

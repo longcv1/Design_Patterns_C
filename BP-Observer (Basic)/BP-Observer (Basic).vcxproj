@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5c9de02b-d124-4b8d-99a5-d10df2b9ee5d}</ProjectGuid>
-    <RootNamespace>BPStrategySpreadSheet</RootNamespace>
+    <ProjectGuid>{91c112c3-48da-43c1-b284-02cad6de1416}</ProjectGuid>
+    <RootNamespace>BPObserverBasic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,16 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CSVFormat.h" />
-    <ClInclude Include="DataModel.h" />
-    <ClInclude Include="Format.h" />
-    <ClInclude Include="HtmlFormat.h" />
+    <ClInclude Include="ConcreteObserver.h" />
+    <ClInclude Include="ConcreteSubject.h" />
+    <ClInclude Include="IObserver.h" />
+    <ClInclude Include="Subject.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSVFormat.cpp" />
-    <ClCompile Include="DataModel.cpp" />
-    <ClCompile Include="HtmlFormat.cpp" />
+    <ClCompile Include="ConcreteObserver.cpp" />
+    <ClCompile Include="ConcreteSubject.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Subject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
