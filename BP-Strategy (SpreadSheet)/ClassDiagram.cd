@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSVFormat">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSVFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataModel">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAEAAAAAAAAAAAJYAAAAAAAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>DataModel.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pFormat" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Format">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Format.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HtmlFormat">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>HtmlFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
