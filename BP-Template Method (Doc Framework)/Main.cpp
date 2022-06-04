@@ -9,10 +9,10 @@ int main()
    //txt.Load();
    //txt.Print();
    NumberDocument nb{};
-   nb.SetNumber(389439);
-   nb.SetData("New data");
-   nb.Save();
-   //nb.Load();
-   //nb.Print();
+   //nb.SetNumber(389439);
+   //nb.SetData("New data");
+   //nb.Save();
+   nb.Load();
+   nb.Print();
    return 0;
 }

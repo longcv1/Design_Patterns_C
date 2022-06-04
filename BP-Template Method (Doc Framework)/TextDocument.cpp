@@ -2,6 +2,10 @@
 #include<iostream>
 #include<string>
 
+
+// NOT USING TEMPLATE METHOD
+
+/*
 void TextDocument::Load()
 {
    if (m_isModified) {
@@ -32,6 +36,30 @@ void TextDocument::SetText(std::string text)
 {
    m_Text = std::move(text);
    m_isModified = true;
+}
+
+void TextDocument::Print()
+{
+   std::cout << "Text Document: " << m_Text << "\n";
+}
+*/
+
+void TextDocument::WriteData(std::ofstream& out)
+{
+   out.seekp(0);
+   out << m_Text;
+   SetModified(false);
+}
+
+void TextDocument::ReadData(std::ifstream& in)
+{
+   std::getline(in, m_Text);
+}
+
+void TextDocument::SetText(std::string text)
+{
+   m_Text = std::move(text);
+   SetModified(true);
 }
 
 void TextDocument::Print()
