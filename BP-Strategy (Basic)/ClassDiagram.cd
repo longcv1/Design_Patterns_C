@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConCreteStrategyA">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <InheritanceLine Type="IStrategy" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.5" Y="1.796" />
+        <Point X="1.5" Y="1.904" />
+        <Point X="1.5" Y="1.904" />
+        <Point X="1.5" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ConCreteStrategyA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Context">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pStrategy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IStrategy">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>IStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

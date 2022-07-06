@@ -24,6 +24,7 @@
     <ProjectGuid>{bf6afce1-2063-44d0-834c-56b30260a24c}</ProjectGuid>
     <RootNamespace>BPTemplateMethodDocFramework</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BP-02-Template Method (Doc Framework)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

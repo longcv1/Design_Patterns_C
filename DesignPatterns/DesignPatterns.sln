@@ -25,15 +25,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Singleton (Registry)", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Singleton (Registry Lazy Intance)", "..\CP-Singleton (Registry Lazy Intance)\CP-Singleton (Registry Lazy Intance).vcxproj", "{EE440A1F-49E4-4C3D-9EEB-627F1F103819}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Strategy (Basic)", "..\BP-Strategy (Basic)\BP-Strategy (Basic).vcxproj", "{3F787547-CFAC-481A-90C4-7260E43E3C0D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-01-Strategy (Basic)", "..\BP-Strategy (Basic)\BP-Strategy (Basic).vcxproj", "{3F787547-CFAC-481A-90C4-7260E43E3C0D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Strategy (SpreadSheet)", "..\BP-Strategy (SpreadSheet)\BP-Strategy (SpreadSheet).vcxproj", "{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-01-Strategy (SpreadSheet)", "..\BP-Strategy (SpreadSheet)\BP-Strategy (SpreadSheet).vcxproj", "{5C9DE02B-D124-4B8D-99A5-D10DF2B9EE5D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Template Method (Doc Framework)", "..\BP-Template Method (Doc Framework)\BP-Template Method (Doc Framework).vcxproj", "{BF6AFCE1-2063-44D0-834C-56B30260A24C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-Observer (Basic)", "..\BP-Observer (Basic)\BP-Observer (Basic).vcxproj", "{91C112C3-48DA-43C1-B284-02CAD6DE1416}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-02-Template Method (Doc Framework)", "..\BP-Template Method (Doc Framework)\BP-Template Method (Doc Framework).vcxproj", "{BF6AFCE1-2063-44D0-834C-56B30260A24C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Prototype (Basic)", "..\CP-Prototype (Basic)\CP-Prototype (Basic).vcxproj", "{BBA258B8-9B6B-4807-8AB2-619CE72E8506}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP-Prototype (Game)", "..\CP-Prototype (Game)\CP-Prototype (Game).vcxproj", "{11DC3E06-341F-40D1-8273-8F9BB257E939}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BP-03-Command (Basic)", "..\BP-03-Command (Basic)\BP-03-Command (Basic).vcxproj", "{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,14 +157,6 @@ Global
 		{BF6AFCE1-2063-44D0-834C-56B30260A24C}.Release|x64.Build.0 = Release|x64
 		{BF6AFCE1-2063-44D0-834C-56B30260A24C}.Release|x86.ActiveCfg = Release|Win32
 		{BF6AFCE1-2063-44D0-834C-56B30260A24C}.Release|x86.Build.0 = Release|Win32
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Debug|x64.ActiveCfg = Debug|x64
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Debug|x64.Build.0 = Debug|x64
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Debug|x86.ActiveCfg = Debug|Win32
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Debug|x86.Build.0 = Debug|Win32
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Release|x64.ActiveCfg = Release|x64
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Release|x64.Build.0 = Release|x64
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Release|x86.ActiveCfg = Release|Win32
-		{91C112C3-48DA-43C1-B284-02CAD6DE1416}.Release|x86.Build.0 = Release|Win32
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Debug|x64.ActiveCfg = Debug|x64
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Debug|x64.Build.0 = Debug|x64
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Debug|x86.ActiveCfg = Debug|Win32
@@ -171,6 +165,22 @@ Global
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Release|x64.Build.0 = Release|x64
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Release|x86.ActiveCfg = Release|Win32
 		{BBA258B8-9B6B-4807-8AB2-619CE72E8506}.Release|x86.Build.0 = Release|Win32
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Debug|x64.ActiveCfg = Debug|x64
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Debug|x64.Build.0 = Debug|x64
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Debug|x86.ActiveCfg = Debug|Win32
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Debug|x86.Build.0 = Debug|Win32
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Release|x64.ActiveCfg = Release|x64
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Release|x64.Build.0 = Release|x64
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Release|x86.ActiveCfg = Release|Win32
+		{11DC3E06-341F-40D1-8273-8F9BB257E939}.Release|x86.Build.0 = Release|Win32
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Debug|x64.ActiveCfg = Debug|x64
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Debug|x64.Build.0 = Debug|x64
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Debug|x86.Build.0 = Debug|Win32
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Release|x64.ActiveCfg = Release|x64
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Release|x64.Build.0 = Release|x64
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Release|x86.ActiveCfg = Release|Win32
+		{8A6A1FF1-3038-48D7-9EE2-CF4463960F9B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
