@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6a60a54f-53cf-486d-a54b-b82e0a32e5a3}</ProjectGuid>
-    <RootNamespace>BP04MomentoBasic</RootNamespace>
+    <ProjectGuid>{39e0e5a7-4e4e-451a-856e-bbf35140b080}</ProjectGuid>
+    <RootNamespace>BP07MediatorChatSystem</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CareTaker.h" />
-    <ClInclude Include="Memento.h" />
-    <ClInclude Include="Originator.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="BP-04-Momento (Basic).rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CareTaker.cpp" />
+    <ClCompile Include="ChatServer.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Memento.cpp" />
-    <ClCompile Include="Originator.cpp" />
+    <ClCompile Include="Person.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <ClInclude Include="ChatServer.h" />
+    <ClInclude Include="Participant.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Server.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

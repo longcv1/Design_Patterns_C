@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6a60a54f-53cf-486d-a54b-b82e0a32e5a3}</ProjectGuid>
-    <RootNamespace>BP04MomentoBasic</RootNamespace>
+    <ProjectGuid>{b13b0418-869c-4db0-9deb-8b48d88d2a60}</ProjectGuid>
+    <RootNamespace>BP07MediatorDialogBoxII</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CareTaker.h" />
-    <ClInclude Include="Memento.h" />
-    <ClInclude Include="Originator.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="BP-04-Momento (Basic).rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CareTaker.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="EditBox.cpp" />
+    <ClCompile Include="ListBox.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Memento.cpp" />
-    <ClCompile Include="Originator.cpp" />
+    <ClCompile Include="RadioGroup.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Dialog.h" />
+    <ClInclude Include="EditBox.h" />
+    <ClInclude Include="ListBox.h" />
+    <ClInclude Include="RadioGroup.h" />
+    <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
